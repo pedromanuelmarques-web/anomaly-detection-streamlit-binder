@@ -1,5 +1,5 @@
 
 #!/usr/bin/env bash
-set -euxo pipefail
+set -eux
 chmod +x .binder/start
 jupyter server extension enable --sys-prefix jupyter_server_proxy || true
