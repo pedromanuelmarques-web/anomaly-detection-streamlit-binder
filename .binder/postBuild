@@ -1,0 +1,8 @@
+
+cat > .binder/postBuild <<'EOF'
+#!/usr/bin/env bash
+set -euxo pipefail
+
+# Explicitly enable server proxy extension (harmless on modern stacks)
+jupyter server extension enable --sys-prefix jupyter_server_proxy || true
+EOF
