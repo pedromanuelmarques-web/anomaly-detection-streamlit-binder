@@ -1,6 +1,6 @@
 # Anomaly Detection Streamlit Dashboard
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/<ORG_OR_USER>/anomaly-detection-streamlit-binder/main?urlpath=proxy/8501/)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/pedromanuelmarques-web/anomaly-detection-streamlit-binder/main?urlpath=proxy/8501/)
 
 ## 📌 Project Overview
 This project provides an interactive **Anomaly Detection Dashboard** built with **Streamlit**. It allows you to:
