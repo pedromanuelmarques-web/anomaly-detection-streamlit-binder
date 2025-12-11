@@ -1,15 +1,11 @@
 
-cat > .binder/start <<'EOF'
 #!/usr/bin/env bash
 set -euxo pipefail
 
-# Launch Streamlit on port 8501 and bind to 0.0.0.0 for the Jupyter proxy
 streamlit run app.py \
   --server.address 0.0.0.0 \
   --server.port 8501 \
   --server.headless true \
   --server.enableCORS false &
 
-# Start JupyterLab (Binder front-end)
 exec jupyter lab --ip=0.0.0.0
-EOF
